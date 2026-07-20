@@ -69,6 +69,14 @@ class ResumeFactory extends Factory
                     'url' => fake()->url(),
                 ],
             ],
+            'courses' => [
+                [
+                    'name' => 'Docker and Kubernetes: The Complete Guide',
+                    'issuer' => 'Udemy',
+                    'date' => '2023-07',
+                    'url' => fake()->url(),
+                ],
+            ],
             'projects' => [
                 [
                     'name' => fake()->words(3, true),

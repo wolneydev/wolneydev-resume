@@ -33,6 +33,7 @@ class ResumeResource extends JsonResource
             'education' => $this->education,
             'skills' => $this->skills,
             'certifications' => $this->certifications,
+            'courses' => $this->courses,
             'projects' => $this->projects,
             'spoken_languages' => $this->spoken_languages,
             'is_published' => $this->is_published,
